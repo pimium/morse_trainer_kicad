@@ -229,18 +229,14 @@ Wire Wire Line
 Wire Wire Line
 	2200 1850 2200 1700
 Connection ~ 2200 1850
-Text Label 5500 3200 2    50   ~ 0
+Text Label 5700 3200 2    50   ~ 0
 SCK
-Text Label 5500 3100 2    50   ~ 0
+Text Label 5700 3100 2    50   ~ 0
 MISO
-Text Label 5500 3000 2    50   ~ 0
+Text Label 5700 3000 2    50   ~ 0
 MOSI
-Text Label 3700 2500 0    50   ~ 0
+Text Label 3500 2500 0    50   ~ 0
 ~RST
-Wire Wire Line
-	4000 2500 3700 2500
-Wire Wire Line
-	5500 3200 5200 3200
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5D8B05B5
@@ -348,8 +344,6 @@ F 3 "~" H 7750 4150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7750 4000 7750 3700
-NoConn ~ 4000 2900
-NoConn ~ 4000 2700
 Text Label 2350 4550 2    50   ~ 0
 SCK
 Text Label 2350 4350 2    50   ~ 0
@@ -497,29 +491,19 @@ NoConn ~ 8600 1950
 NoConn ~ 8600 2050
 NoConn ~ 8600 2150
 NoConn ~ 8600 2250
-Wire Wire Line
-	5200 2500 5800 2500
-Wire Wire Line
-	5200 2600 5800 2600
-Wire Wire Line
-	5200 2700 5800 2700
-Wire Wire Line
-	5200 2800 5800 2800
-Wire Wire Line
-	5200 2900 5800 2900
-Text Label 5800 2500 2    50   ~ 0
+Text Label 6000 2500 2    50   ~ 0
 RS
-Text Label 5800 2600 2    50   ~ 0
+Text Label 6000 2600 2    50   ~ 0
 R\~W
-Text Label 5800 2700 2    50   ~ 0
+Text Label 6000 2700 2    50   ~ 0
 E
-Text Label 5800 2800 2    50   ~ 0
+Text Label 6000 2800 2    50   ~ 0
 DB4
-Text Label 5800 2900 2    50   ~ 0
+Text Label 6000 2900 2    50   ~ 0
 DB5
-Text Label 5800 3000 2    50   ~ 0
+Text Label 6000 3000 2    50   ~ 0
 DB6
-Text Label 5800 3100 2    50   ~ 0
+Text Label 6000 3100 2    50   ~ 0
 DB7
 $Comp
 L Device:R_POT RV1
@@ -556,10 +540,6 @@ F 3 "" H 9700 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9700 1150 9700 1450
-Wire Wire Line
-	5200 3000 5800 3000
-Wire Wire Line
-	5200 3100 5800 3100
 Wire Wire Line
 	9700 1750 9700 2000
 Wire Wire Line
@@ -604,4 +584,196 @@ F 3 "~" H 1400 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1850 2100 1850 2350
+Wire Wire Line
+	5200 3400 5700 3400
+Wire Wire Line
+	5200 3500 5700 3500
+Wire Wire Line
+	5200 3600 5700 3600
+Wire Wire Line
+	5200 3800 5700 3800
+Wire Wire Line
+	5200 4000 5700 4000
+Text Label 5700 3400 2    50   ~ 0
+PB0
+Text Label 5700 3500 2    50   ~ 0
+PB1
+Text Label 5700 3600 2    50   ~ 0
+PB2
+Text Label 5700 3700 2    50   ~ 0
+PB3
+Text Label 5700 3800 2    50   ~ 0
+PB4
+Text Label 5700 3900 2    50   ~ 0
+PB5
+Text Label 5700 4000 2    50   ~ 0
+PB6
+Wire Wire Line
+	3500 2700 3800 2700
+Wire Wire Line
+	3800 2900 3500 2900
+Text Label 3500 2700 0    50   ~ 0
+XTAL1
+Text Label 3500 2900 0    50   ~ 0
+XTAL2
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 5ED7C278
+P 9650 4300
+F 0 "J?" H 9730 4292 50  0000 L CNN
+F 1 "Conn_01x10" H 9730 4201 50  0000 L CNN
+F 2 "" H 9650 4300 50  0001 C CNN
+F 3 "~" H 9650 4300 50  0001 C CNN
+	1    9650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 5ED7C3AC
+P 9650 5600
+F 0 "J?" H 9730 5592 50  0000 L CNN
+F 1 "Conn_01x10" H 9730 5501 50  0000 L CNN
+F 2 "" H 9650 5600 50  0001 C CNN
+F 3 "~" H 9650 5600 50  0001 C CNN
+	1    9650 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3900 9000 3900
+Wire Wire Line
+	9450 4000 9000 4000
+Wire Wire Line
+	9450 4100 9000 4100
+Wire Wire Line
+	9450 4200 9000 4200
+Wire Wire Line
+	9450 4300 9000 4300
+Wire Wire Line
+	9450 4400 9000 4400
+Wire Wire Line
+	9450 4500 9000 4500
+Wire Wire Line
+	9450 4600 9000 4600
+Wire Wire Line
+	9450 4700 9000 4700
+Wire Wire Line
+	9450 4800 9000 4800
+Wire Wire Line
+	9450 5200 9000 5200
+Wire Wire Line
+	9450 5300 9000 5300
+Wire Wire Line
+	9450 5400 9000 5400
+Wire Wire Line
+	9450 5500 9000 5500
+Wire Wire Line
+	9450 5600 9000 5600
+Wire Wire Line
+	9450 5700 9000 5700
+Wire Wire Line
+	9450 5800 9000 5800
+Wire Wire Line
+	9450 5900 9000 5900
+Wire Wire Line
+	9450 6000 9000 6000
+Wire Wire Line
+	9450 6100 9000 6100
+Text Label 5400 2500 2    50   ~ 0
+P12
+Text Label 5400 2600 2    50   ~ 0
+P13
+Text Label 5400 2700 2    50   ~ 0
+P14
+Text Label 5400 2800 2    50   ~ 0
+P15
+Text Label 5400 2900 2    50   ~ 0
+P16
+Text Label 5400 3000 2    50   ~ 0
+P17
+Text Label 5400 3100 2    50   ~ 0
+P18
+Text Label 5400 3200 2    50   ~ 0
+P19
+Wire Wire Line
+	5200 2500 6000 2500
+Text Label 5250 3400 0    50   ~ 0
+P02
+Text Label 5250 3500 0    50   ~ 0
+P03
+Text Label 5250 3600 0    50   ~ 0
+P06
+Text Label 5250 3700 0    50   ~ 0
+P07
+Text Label 5250 3800 0    50   ~ 0
+P08
+Text Label 5250 3900 0    50   ~ 0
+P09
+Text Label 5250 4000 0    50   ~ 0
+P11
+Wire Wire Line
+	5200 2600 6000 2600
+Wire Wire Line
+	5200 2700 6000 2700
+Wire Wire Line
+	5200 2800 6000 2800
+Wire Wire Line
+	5200 2900 6000 2900
+Wire Wire Line
+	5200 3000 6000 3000
+Wire Wire Line
+	5200 3100 6000 3100
+Wire Wire Line
+	5200 3200 5700 3200
+Wire Wire Line
+	3500 2500 4000 2500
+Wire Wire Line
+	3800 2700 4000 2700
+Wire Wire Line
+	3800 2900 4000 2900
+Text Label 3800 2500 0    50   ~ 0
+P01
+Text Label 3800 2900 0    50   ~ 0
+P04
+Text Label 3800 2700 0    50   ~ 0
+P05
+Text Label 9000 3900 0    50   ~ 0
+P01
+Text Label 9000 4000 0    50   ~ 0
+P01
+Text Label 9000 4100 0    50   ~ 0
+P02
+Text Label 9000 4200 0    50   ~ 0
+P03
+Text Label 9000 4300 0    50   ~ 0
+P04
+Text Label 9000 4400 0    50   ~ 0
+P05
+Text Label 9000 4500 0    50   ~ 0
+P06
+Text Label 9000 4600 0    50   ~ 0
+P07
+Text Label 9000 4700 0    50   ~ 0
+P08
+Text Label 9000 4800 0    50   ~ 0
+P09
+Text Label 9000 5200 0    50   ~ 0
+P10
+Text Label 9000 5300 0    50   ~ 0
+P11
+Text Label 9000 5400 0    50   ~ 0
+P12
+Text Label 9000 5500 0    50   ~ 0
+P13
+Text Label 9000 5600 0    50   ~ 0
+P14
+Text Label 9000 5700 0    50   ~ 0
+P15
+Text Label 9000 5800 0    50   ~ 0
+P16
+Text Label 9000 5900 0    50   ~ 0
+P17
+Text Label 9000 6000 0    50   ~ 0
+P18
+Text Label 9000 6100 0    50   ~ 0
+P19
 $EndSCHEMATC
